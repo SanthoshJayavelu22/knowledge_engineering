@@ -1,0 +1,37 @@
+/* index.css */
+@import "tailwindcss";
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Trajan Pro', serif;
+}
+
+
+:root {
+  --color-primary: #303030;
+  --color-secondary: #73b3d9;
+}
+
+
+body, p {
+    font-family: bilo, Arial, sans-serif ;
+}
+
+
+
+@tailwind utilities;
+
+@layer utilities {
+  .animate-pulse-fast {
+    animation: pulse 1s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 2.5s ease-in-out infinite;
+  }
+
+  
+}
+
+
+
