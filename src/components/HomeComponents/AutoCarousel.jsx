@@ -41,6 +41,7 @@ const AutoCarousel = ({ slides, interval = 3000 }) => {
   return (
     <div
       className="relative w-full h-[60vh] mt-19 md:mt-30 sm:h-[70vh] md:h-[80vh] lg:h-screen overflow-hidden shadow-xl"
+  style={{ overflowX: 'hidden' }}
       onMouseEnter={() => {
         setIsHovered(true);
         stopSlideTimer();

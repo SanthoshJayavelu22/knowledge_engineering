@@ -79,7 +79,7 @@ const PressReleasePage = () => {
   const sortedReleases = [...filteredReleases].sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return (
-    <div className="min-h-screen bg-gray-50 md:mt-30">
+    <div className="min-h-screen bg-gray-50 mt-20 md:mt-30">
       {/* Press Release Hero */}
       <section className="relative mb-20">
         <div className="absolute inset-0 bg-[var(--color-primary)] opacity-90"></div>

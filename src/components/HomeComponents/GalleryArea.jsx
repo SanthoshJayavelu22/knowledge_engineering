@@ -6,8 +6,8 @@ import img5 from "../../assets/2.jpg";
 
 const GalleryArea = () => {
   return (
-    <section className="py-12 md:py-20 bg-gradient-to-b from-white to-gray-50">
-      <div className="container mx-auto max-w-7xl px-4">
+   <section className="py-12 md:py-20 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+  <div className="container mx-auto max-w-7xl px-4 overflow-x-hidden">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16" data-aos="fade-up">
           <h2 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">

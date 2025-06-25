@@ -7,7 +7,7 @@ import cer4 from '../../assets/certificate4.png';
 const AboutSection = () => {
   return (
     <div className="bg-gradient-to-b from-white to-gray-50 py-12 md:py-20">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-4 max-w-7xl">
         {/* Certificates Grid */}
      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4  gap-6 md:gap-8 mb-12 md:mb-20">
   {[cer1, cer2, cer3, cer4].map((src, idx) => (

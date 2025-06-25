@@ -86,7 +86,7 @@ const EventsPage = () => {
   const sortedEvents = [...filteredEvents].sort((a, b) => new Date(a.date) - new Date(b.date));
 
   return (
-    <div className="min-h-screen bg-gray-50 md:mt-30">
+    <div className="min-h-screen bg-gray-50 mt-20 md:mt-30">
       {/* Events Hero Banner */}
       <section className="relative mb-20">
         <div className="absolute inset-0 bg-[var(--color-primary)] opacity-90"></div>

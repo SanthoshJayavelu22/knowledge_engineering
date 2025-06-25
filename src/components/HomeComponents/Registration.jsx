@@ -2,8 +2,8 @@ import React from "react";
 
 const RegistrationForm = () => {
   return (
-    <div className="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
-      <div className="container mx-auto px-4 max-w-7xl">
+   <div className="py-12 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+  <div className="container mx-auto px-4 max-w-7xl overflow-x-hidden">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
           {/* Left Section */}
           <div className="lg:w-1/2" data-aos="fade-up">

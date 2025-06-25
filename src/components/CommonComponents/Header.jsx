@@ -34,7 +34,7 @@ const currentPath = location.pathname;
   };
 
   return (
-   <header className="fixed top-0 left-0 w-full z-50 bg-[var(--color-primary)] shadow-md">
+   <header className="fixed top-0 left-0 w-full z-50 bg-[var(--color-primary)] shadow-md overflow-x-hidden">
 
       <div className='p-2 w-full bg-[var(--color-secondary)] hidden md:block'>
 <span className='text-white text-sm flex gap-1 items-center justify-center '>  <MapPin size={24}/> Suite No.512, 5th Floor, The Executive Zone, Sakthi Towers-1, No.766, Anna Salai, Chennai - 600 002</span>

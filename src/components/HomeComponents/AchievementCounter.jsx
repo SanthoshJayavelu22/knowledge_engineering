@@ -49,7 +49,7 @@ const StatsCounter = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <section ref={ref} className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden">
+    <section ref={ref} className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 relative overflow-hidden ">
       {/* Animated background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-50">
         {[...Array(8)].map((_, i) => (

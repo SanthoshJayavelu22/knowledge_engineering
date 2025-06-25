@@ -26,7 +26,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-white md:mt-30">
+    <div className="bg-white mt-20 md:mt-30">
       {/* Hero Section */}
       <div className="relative h-64 md:h-96 overflow-hidden">
         <img 

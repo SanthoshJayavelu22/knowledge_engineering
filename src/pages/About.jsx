@@ -13,7 +13,7 @@ import teamPhoto from '../assets/gallery4.jpg';
 
 const AboutUs = () => {
   return (
-    <div className="bg-white md:mt-30">
+    <div className="bg-white mt-20 md:mt-30">
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-[var(--color-primary)] opacity-90"></div>

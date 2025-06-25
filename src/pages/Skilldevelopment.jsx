@@ -3,7 +3,7 @@ import aboutHero from '../assets/gallery1.jpg';
 const Skilldevelopment = () => {
   return (
     <div >
-      <section className="relative py-16 md:py-24 bg-gray-50 overflow-hidden ">
+      <section className="relative py-16 md:py-24 bg-gray-50 overflow-hidden md:mt-6">
 <section className="relative mb-30">
                 <div className="absolute inset-0 bg-[var(--color-primary)] opacity-90"></div>
                 <img 

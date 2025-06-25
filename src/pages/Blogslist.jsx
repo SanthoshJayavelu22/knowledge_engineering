@@ -35,7 +35,7 @@ const BlogListPage = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50 min-h-screen ">
+    <section className="py-20 bg-gray-50 min-h-screen md:mt-10">
                         <section className="relative mb-30">
                 <div className="absolute inset-0 bg-[var(--color-primary)] opacity-90"></div>
                 <img 
